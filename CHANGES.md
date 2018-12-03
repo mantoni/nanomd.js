@@ -1,5 +1,12 @@
 # Changes
 
+## 1.0.2
+
+- 🐛 [`f809e35`](https://github.com/mantoni/nanomd.js/commit/f809e35ed1863842b99970b47b340747d0d9ee32)
+  Fix pre-compiling markdown with multiple lines
+
+_Released by [Maximilian Antoni](https://github.com/mantoni) on 2018-12-03._
+
 ## 1.0.1
 
 - 🐛 [`fb5defc`](https://github.com/mantoni/nanomd.js/commit/fb5defcca038fc4f7b85104431a21360130dc9a0)
