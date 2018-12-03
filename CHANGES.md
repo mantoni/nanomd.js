@@ -1,5 +1,12 @@
 # Changes
 
+## 1.0.1
+
+- 🐛 [`fb5defc`](https://github.com/mantoni/nanomd.js/commit/fb5defcca038fc4f7b85104431a21360130dc9a0)
+  Fix example
+
+_Released by [Maximilian Antoni](https://github.com/mantoni) on 2018-12-03._
+
 ## 1.0.0
 
 - ✨ [`bd783f5`](https://github.com/mantoni/nanomd.js/commit/bd783f5c01ca1ed9f0c9d9a2252094a81b837e2c)
