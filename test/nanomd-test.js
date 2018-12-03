@@ -16,7 +16,7 @@ describe('nanomd', () => {
 
     stream.on('data', (data) => {
       assert.equals(String(data), 'const html = require(\'nanohtml\');\n'
-        + 'module.exports = html`<div><p>Hi, <strong>this</strong> is '
+        + 'module.exports = () => html`<div><p>Hi, <strong>this</strong> is '
         + 'markdown!</p></div>`;');
       done();
     });

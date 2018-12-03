@@ -1,3 +1,5 @@
 'use strict';
 
-console.warn(require('./multiline.md').toString());
+const test = require('./multiline.md');
+
+console.warn(test().toString());

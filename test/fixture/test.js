@@ -1,3 +1,5 @@
 'use strict';
 
-console.warn(require('./test.md').toString());
+const test = require('./test.md');
+
+console.warn(test().toString());

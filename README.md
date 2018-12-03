@@ -28,7 +28,7 @@ const hello = require('./hello.md');
 const el = html`
   <body>
     <h1>Hello markdown</h1>
-    ${hello}
+    ${hello()}
   </body>
 `;
 
