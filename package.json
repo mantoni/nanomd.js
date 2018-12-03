@@ -1,0 +1,51 @@
+{
+  "name": "nanomd",
+  "version": "0.0.0",
+  "description": "A tiny browserify transform to require markdown files compiled with nanohtml",
+  "main": "lib/nanomd.js",
+  "keywords": [
+    "browserify",
+    "transform",
+    "markdown",
+    "choo",
+    "html",
+    "precompile"
+  ],
+  "author": "Maximilian Antoni <mail@maxantoni.de> (http://maxantoni.de/)",
+  "homepage": "https://github.com/mantoni/nanomd.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mantoni/nanomd.js.git"
+  },
+  "eslintConfig": {
+    "extends": "@studio"
+  },
+  "scripts": {
+    "test": "mocha",
+    "watch": "mocha --watch",
+    "lint": "eslint .",
+    "posttest": "npm run lint",
+    "preversion": "npm test",
+    "version": "changes --commits --footer",
+    "postversion": "git push --follow-tags && npm publish"
+  },
+  "dependencies": {
+    "marked": "^0.5.2"
+  },
+  "devDependencies": {
+    "@sinonjs/referee-sinon": "^4.1.0",
+    "@studio/changes": "^1.7.0",
+    "@studio/eslint-config": "^1.0.2",
+    "browserify": "^16.2.3",
+    "eslint": "^5.9.0",
+    "mocha": "^5.2.0",
+    "nanohtml": "^1.3.0"
+  },
+  "peerdependencies": {
+    "nanohtml": "^1.3.0"
+  },
+  "files": [
+    "lib"
+  ],
+  "license": "MIT"
+}
