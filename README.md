@@ -25,7 +25,7 @@
 const html = require('nanohtml');
 const hello = require('./hello.md');
 
-const el html`
+const el = html`
   <body>
     <h1>Hello markdown</h1>
     ${hello}
@@ -46,12 +46,12 @@ browserify -t nanomd -t nanohtml index.js > bundle.js
 In your `package.json`:
 
 ```json
-  "browserify": {
-    "transform": [
-      "nanomd",
-      "nanohtml"
-    ]
-  }
+"browserify": {
+  "transform": [
+    "nanomd",
+    "nanohtml"
+  ]
+}
 ```
 
 Make sure to run `nanomd` before the `nanohtml` transform.
