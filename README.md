@@ -1,5 +1,9 @@
 # nanomd
 
+[![Build Status]](https://travis-ci.org/mantoni/nanomd.js)
+[![SemVer]](http://semver.org)
+[![License]](https://github.com/mantoni/nanomd.js/blob/master/LICENSE)
+
 > A tiny browserify transform to require markdown files compiled with
 > [nanohtml][]. Works great with [choo][]™.
 
@@ -56,6 +60,9 @@ Make sure to run `nanomd` before the `nanohtml` transform.
 
 MIT
 
+[Build Status]: https://img.shields.io/travis/mantoni/nanomd.js/master.svg
+[SemVer]: https://img.shields.io/:semver-%E2%9C%93-brightgreen.svg
+[License]: https://img.shields.io/npm/l/nanomd.svg
 [marked]: https://marked.js.org
 [nanohtml]: https://github.com/choojs/nanohtml
 [choo]: https://choo.io
