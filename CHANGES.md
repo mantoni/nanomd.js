@@ -1,5 +1,17 @@
 # Changes
 
+## 1.0.3
+
+- 🐛 [`051d4e4`](https://github.com/mantoni/nanomd.js/commit/051d4e49b93c121da5911bd6961fd36907c13ead)
+  Fix design issue with generating HTML only once
+    >
+    > This changes the generated code to a function that returns the generated
+    > html. This is necessary since re-using the same html object confuses the
+    > diffing algorithm used in choo.
+    >
+
+_Released by [Maximilian Antoni](https://github.com/mantoni) on 2018-12-03._
+
 ## 1.0.2
 
 - 🐛 [`f809e35`](https://github.com/mantoni/nanomd.js/commit/f809e35ed1863842b99970b47b340747d0d9ee32)
