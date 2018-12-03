@@ -16,8 +16,8 @@ describe('nanomd', () => {
 
     stream.on('data', (data) => {
       assert.equals(String(data), 'const html = require(\'nanohtml\');\n'
-        + 'module.exports = html`<p>Hi, <strong>this</strong> is '
-        + 'markdown!</p>`;');
+        + 'module.exports = html`<div><p>Hi, <strong>this</strong> is '
+        + 'markdown!</p></div>`;');
       done();
     });
 
@@ -36,9 +36,25 @@ describe('nanomd', () => {
         eval(String(bundle)); // eslint-disable-line no-eval
 
         assert.calledOnceWith(console.warn,
-          '<p>Hi, <strong>this</strong> is markdown!</p>');
+          '<div><p>Hi, <strong>this</strong> is markdown!</p></div>');
         done();
       });
+  });
+
+  it('precompiles with nanohtml', (done) => {
+    browserify({ node: true })
+      .transform(nanomd)
+      .transform('nanohtml')
+      .add('./test/fixture/test.js')
+      .bundle(done);
+  });
+
+  it('allow multiple paragraphs in markdown file', (done) => {
+    browserify({ node: true })
+      .transform(nanomd)
+      .transform('nanohtml')
+      .add('./test/fixture/multiline.js')
+      .bundle(done);
   });
 
 });
