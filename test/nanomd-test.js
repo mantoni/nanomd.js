@@ -15,9 +15,9 @@ describe('nanomd', () => {
     const stream = nanomd('file.md', {});
 
     stream.on('data', (data) => {
-      assert.equals(String(data), 'const html = require(\'nanohtml\');\n'
-        + 'module.exports = () => html`<div><p>Hi, <strong>this</strong> is '
-        + 'markdown!</p></div>`;');
+      assert.equals(String(data), 'var html = require(\'nanohtml\');\n'
+        + 'module.exports = function () { return html`<div><p>Hi, '
+        + '<strong>this</strong> is markdown!</p></div>`; };');
       done();
     });
 
