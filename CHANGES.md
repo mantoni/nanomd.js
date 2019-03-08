@@ -1,5 +1,12 @@
 # Changes
 
+## 1.0.4
+
+- 🐛 [`f74a530`](https://github.com/mantoni/nanomd.js/commit/f74a530f11e34360d2594a6326f0cd623496c9c7)
+  Generate ES2015 compatible source
+
+_Released by [Maximilian Antoni](https://github.com/mantoni) on 2019-03-08._
+
 ## 1.0.3
 
 - 🐛 [`051d4e4`](https://github.com/mantoni/nanomd.js/commit/051d4e49b93c121da5911bd6961fd36907c13ead)
