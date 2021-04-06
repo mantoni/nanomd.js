@@ -1,5 +1,25 @@
 # Changes
 
+## 1.0.5
+
+- 🛡 [`824e802`](https://github.com/mantoni/nanomd.js/commit/824e802ed1624758b2857745a2daa18ca9cbb15a)
+  Upgrade marked dependency (Morgan Roderick)
+    >
+    > This removes dependency on insecure version of minimist
+    >
+    > See https://www.npmjs.com/advisories/1179
+    >
+- 🛡 [`2b2ca61`](https://github.com/mantoni/nanomd.js/commit/2b2ca61e1239b2585efe695b90e06b890a965785)
+  npm audit
+- ✨ [`8711041`](https://github.com/mantoni/nanomd.js/commit/8711041b8fc5f931b052aae40029a0b34f199df7)
+  Upgrade Studio Changes to v2
+- ✨ [`bb456de`](https://github.com/mantoni/nanomd.js/commit/bb456de47a3b8cfef5f9ec6ba32bfd38be9fa765)
+  Use npm 7
+- ✨ [`e2dd220`](https://github.com/mantoni/nanomd.js/commit/e2dd220267df6c2b62b9232ce14af7e826ea696d)
+  Add `.gitignore`
+
+_Released by [Maximilian Antoni](https://github.com/mantoni) on 2021-04-06._
+
 ## 1.0.4
 
 - 🐛 [`f74a530`](https://github.com/mantoni/nanomd.js/commit/f74a530f11e34360d2594a6326f0cd623496c9c7)

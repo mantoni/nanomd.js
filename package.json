@@ -1,6 +1,6 @@
 {
   "name": "nanomd",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A tiny browserify transform to require markdown files compiled with nanohtml",
   "main": "lib/nanomd.js",
   "keywords": [
