@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "@sinonjs/referee-sinon": "^4.1.0",
-    "@studio/changes": "^1.7.0",
+    "@studio/changes": "^2.1.0",
     "@studio/eslint-config": "^1.0.2",
     "browserify": "^16.2.3",
     "eslint": "^5.9.0",
