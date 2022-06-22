@@ -30,7 +30,7 @@
     "postversion": "git push --follow-tags && npm publish"
   },
   "dependencies": {
-    "marked": "^2.0.1"
+    "marked": "^4.0.10"
   },
   "devDependencies": {
     "@sinonjs/referee-sinon": "^4.1.0",
